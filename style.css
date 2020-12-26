@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    background: #303F9F;
+    display: flex;
+}
+.header__logo{
+   text-transform: uppercase;
+   color: #ffaa00;
+   font-size: 24px;
+   margin: auto;
+   align-items:center;
+}
+nav{
+    display: flex;
+    align-items:center;
+    margin: auto;
+}
+.topnav a{
+    color: #ffffff;
+    padding: 12px 16px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.4s linear;
+}
+.topnav a:hover{
+    background: #ffaa00;
+    color:#303F9F;
+}
+.topnav .icon{
+    display: none;
+}
+.main__welcome{
+    background: #303F9F;
+    margin: auto;
+    padding:15px 50px;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffaa00;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+.welcome__txt{
+    text-align: center;
+    padding-bottom: 30px;
+    color: #ffffff;
+}
+.welcome__img{
+   display: flex;
+   justify-content: center;
+}
+.wrapper{
+    max-width: 1200px;
+    margin: auto;
+}
+.main__about{
+    display: flex;
+    margin-bottom: 15px;
+}
+.main__about li{
+    font-size: 20px;
+}
+.about__img{
+    margin-right: 200px;
+    margin-left: -100px;
+}
+.list__wrapper{
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+}
+ul{
+    list-style-type: none;
+    margin-left: 5%;
+}
+ul li:before{
+    content: "◉";
+    padding-right: 5px;
+    font-size: 20px;
+}
+ul li ul li:before{
+    content:"◈";
+}
+.main__goods{
+    background: #303F9F;
+}
+.product h2,h3{
+    color:#fa0;
+    font-weight: bold;
+}
+.product h2,h3{
+    text-align: center;
+    padding-bottom: 5px;
+}
+.product{
+    display: inline-block;
+    max-width: 300px;
+    color:#ffffff;
+    margin:0 150px 50px 140px;
+    justify-content: space-around;
+}
+.product img{
+    cursor:pointer;
+}
+.review{
+    display: inline-block;
+    margin: 5px;
+}
+.layer p{
+    overflow: scroll;
+    width: 300px;
+    height: 200px;
+    padding: 5px; 
+    border: solid 1px black; 
+}
+.layer h2{
+    display: flex;
+    justify-content: center;
+}
+.review{
+    margin-right: 80px;
+}
+.review p{
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+.contact__form{
+    background: #303F9F;
+    color:#ffffff;
+}
+.contact__form form{
+    padding: 10px;
+    background: #fa0;
+    color: #000000;
+}
+.contact__form h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+footer{
+    display: flex;
+    background: #303F9F;
+}
+footer table{
+    margin: 0 auto;
+}
